@@ -76,11 +76,9 @@
 }
 
 .parallax1 {
-  /* The image used */
+
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(http://www.desktop-screens.com/data/out/54/2974479-house-wallpapers.jpg);
-  /* Set a specific height */
   height: 400px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
