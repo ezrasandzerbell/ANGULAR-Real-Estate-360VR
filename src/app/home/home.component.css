@@ -1,0 +1,99 @@
+.top-header {
+   background-color: black;
+   color: white;
+   margin: 0;
+   height: 5em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.page-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 25%;
+  border-top: 1px;
+  border-bottom: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: gray;
+  margin-bottom: 0;
+  background-color: black;
+  color: white;
+}
+
+.page-nav li {
+  list-style: none;
+  text-align: center;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: gray;
+  padding: 1em;
+}
+
+.page-nav li:last-child {
+  border-right-width: 1px;
+}
+
+
+.full-width-image {
+  width: 100vw;
+}
+
+.card-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 5em 9em;
+}
+
+.card-parent div {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px gray;
+  color: white;
+}
+
+.resize-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.webvr-container {
+  height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  color: black;
+  margin-bottom: 20vh;
+}
+
+.parallax1 {
+  /* The image used */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(http://www.desktop-screens.com/data/out/54/2974479-house-wallpapers.jpg);
+  /* Set a specific height */
+  height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,.1)), url(https://images.unsplash.com/photo-1481277542470-605612bd2d61);
+  /* Set a specific height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
