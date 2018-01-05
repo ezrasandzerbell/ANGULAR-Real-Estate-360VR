@@ -7,7 +7,13 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 300;
+   letter-spacing: 0.134em;
+   text-transform: uppercase;
 }
+
 .page-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -21,6 +27,16 @@
   margin-bottom: 0;
   background-color: black;
   color: white;
+  text-decoration: none;
+}
+
+a:link, a:visited  {
+    color: white;
+}
+
+a:hover, a:active {
+    color: hotpink;
+    text-decoration: none;
 }
 
 .page-nav li {
@@ -59,11 +75,17 @@
   align-items: center;
   border: solid 1px gray;
   color: white;
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.134em;
+  text-transform: uppercase;
 }
 
 .resize-icon {
   width: 60px;
   height: 60px;
+  margin-bottom: .5em;
 }
 
 .webvr-container {
