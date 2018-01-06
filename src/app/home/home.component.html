@@ -1,5 +1,5 @@
 <div class="top-header">
-  {{ address }}
+  {{ allHomesArray[0].address }}
 </div>
 
   <ul class="page-nav">
@@ -10,35 +10,35 @@
   </ul>
 
 
-<img src="{{firstpic}}" class="full-width-image">
+<img src="{{allHomesArray[0].firstpic}}" class="full-width-image">
 
 <a name="property"></a>
-  <div class="card-parent" [ngStyle]="parallax1">
+  <div class="card-parent" [ngStyle]="allHomesArray[0].parallax1">
     <div>
       <img src="assets/bedicon.png" alt="icon" class="resize-icon">
 
-      {{statsArray[0]}}
+      {{allHomesArray[0].statsArray[0]}}
     </div>
     <div>
       <img src="assets/bathroomicon.png" alt="icon" class="resize-icon">
 
-      {{statsArray[1]}}
+      {{allHomesArray[0].statsArray[1]}}
     </div>
     <div>
       <img src="assets/sqfticon.png" alt="icon" class="resize-icon">
 
-      {{statsArray[2]}}
+      {{allHomesArray[0].statsArray[2]}}
     </div>
   </div>
 
 <a name="webvr"></a>
   <div class="webvr-container">
     <h1 style="text-align: center">360 Video Walkthrough</h1>
-    <iframe width="100%" height="100%" [src]='sanitizer.bypassSecurityTrustResourceUrl(matterportEmbed)' frameborder="0" allowfullscreen></iframe>
+    <iframe width="100%" height="100%" [src]='sanitizer.bypassSecurityTrustResourceUrl(allHomesArray[0].matterportEmbed)' frameborder="0" allowfullscreen></iframe>
   </div>
 
 
 <a name="photos"></a>
-<div [ngStyle]="parallax2"></div>
+<div [ngStyle]="allHomesArray[0].parallax2"></div>
 
 <a name="map"></a>
