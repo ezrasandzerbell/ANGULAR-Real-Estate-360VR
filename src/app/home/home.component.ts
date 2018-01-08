@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
 
     'statsArray': ["4 Bedrooms", "3.5 Bathrooms", "4,000 S.F."],
 
-    'parallax1': {'background': 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(http://www.desktop-screens.com/data/out/54/2974479-house-wallpapers.jpg)', 'height': '400px', 'background-attachment': 'fixed', 'background-position': 'center', 'background-repeat': 'no-repeat', 'background-size': 'cover'},
+    'parallax1': {'background': 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,.5)), url(http://3.bp.blogspot.com/-TERE3x0dU-A/T6qVmaLFzWI/AAAAAAAADLk/N16NGAco0Ng/s1600/HDhut.blogspot.com+%252829%2529.jpeg)', 'height': '400px', 'background-attachment': 'fixed', 'background-position': 'center', 'background-repeat': 'no-repeat', 'background-size': 'cover'},
 
     'parallax2': {'background': 'linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,.1)), url(https://images.unsplash.com/photo-1481277542470-605612bd2d61)', 'height': '100vh', 'background-attachment': 'fixed', 'background-position': 'center', 'background-repeat': 'no-repeat', 'background-size': 'cover'},
 

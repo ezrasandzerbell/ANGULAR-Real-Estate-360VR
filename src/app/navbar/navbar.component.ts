@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  currentTheme = {'background-color': '#C9CACB', 'color': 'white'}
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  navToHomeTheme() {
+    this.currentTheme = {'background-color': '#C9CACB', 'color': 'white'}
+  }
+
+  navToFormTheme() {
+    this.currentTheme = {'background-color': 'black', 'color': 'white'}
   }
 
 }

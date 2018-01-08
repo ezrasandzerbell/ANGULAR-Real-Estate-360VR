@@ -1,7 +1,6 @@
-<nav class="navbar">
-        <a class="navbar-brand">Show Show Portfolios</a>
-        <ul class="nav navbar-nav" routerLinkActive="active">
-            <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" routerLink="new-listing">New Listing</a></li>
+<nav class="navbar" [ngStyle]="currentTheme">
+        <a class="navbar-brand" routerLink="home" (click)="navToHomeTheme()">Show Show Portfolios</a>
+        <ul class="nav navbar-nav" >
+            <li class="nav-item"><a class="nav-link" routerLink="new-listing" (click)="navToFormTheme()">New Listing</a></li>
         </ul>
 </nav>
