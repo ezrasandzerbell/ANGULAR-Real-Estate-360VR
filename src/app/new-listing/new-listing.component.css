@@ -1,0 +1,20 @@
+.centerButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBodyWrapper {
+  background-image: url('../../assets/formImage.jpg');
+  height: 100%;
+  width: 100%;
+}
+
+.innerWrapper {
+  padding: 7%;
+  color: white;
+  border-color: white;
+  border-width: thin;
+  border-style: solid;
+}

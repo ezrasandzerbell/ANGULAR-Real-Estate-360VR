@@ -7,7 +7,6 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
   address: string;
   firstpic: string;
   statsArray: Array<string>;
@@ -29,7 +28,7 @@ export class HomeComponent implements OnInit {
     'matterportEmbed': "https://my.matterport.com/show/?m=JGPnGQ6hosj&play=1&qs=1"
   }
 
-  allHomesArray = [this.homeOne]
+  allHomesArray = [this.homeOne, ]
 
 // end homeOne
 

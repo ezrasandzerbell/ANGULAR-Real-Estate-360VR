@@ -1,12 +1,100 @@
-<form >
-  <div class="form-group">
-    <label for="address">Home Address</label>
-    <input type="text" id="address" name="address" class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="firstpic">Main House Photo</label>
-    <input type="text" id="firstpic" name="firstpic" class="form-control">
-  </div>
+  <div class="formBodyWrapper">
+    <div class="innerWrapper">
+      <h1>Create a New House Listing</h1>
+      <br>
+      <form>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="form-group">
+              <h3>Street Address</h3>
+            </div>
+          </div>
+          <div class="col-md-4" style="padding-top:15px;">
+            <div class="form-group">
+              <input type="text" id="address" name="address" class="form-control" placeholder="Enter House Address Here">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="form-group">
+              <h3>Matterport</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="firstpic"></label>
+              <input type="text" id="matterportUrl" name="matterportUrl" class="form-control" placeholder="e.g. https://my.matterport.com/show/?m=JGPnGQ6hosj&play=1&qs=1">
+            </div>
+          </div>
+        </div>
+        <br>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+        <div class="row">
+          <div class="col-md-6">
+            <hr>
+          </div>
+        </div>
+        <h2>Home Details</h2>
+        <br>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="address">Number of Bedrooms</label>
+              <input type="number" id="bedrooms" name="bedrooms" class="form-control" value="0">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="firstpic">Number of Bathrooms</label>
+              <input type="number" id="bathrooms" name="bathrooms" class="form-control" value="0">
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="address">Square Footage</label>
+              <input type="number" id="sqft" name="sqft" class="form-control" value="0">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <hr>
+          </div>
+        </div>
+        <h2>Image URLs</h2>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="address">First Image (Aerial Shot)</label>
+              <input type="text" id="firstImg" name="firstImg" class="form-control" placeholder="e.g. http://myphotos.com/AerialPhoto.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="firstpic">Front of House Image</label>
+              <input type="text" id="paralaximg1" name="paralaximg1" class="form-control" placeholder="e.g. http://myphotos.com/FrontOfHouse.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="firstpic">Indoor Shot (Final Image)</label>
+              <input type="text" id="paralaximg2" name="paralaximg2" class="form-control"  placeholder="e.g. http://myphotos.com/IndoorPhoto.jpg">
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <div class="centerButton">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+      </form>
+    </div>
+
+  </div>
